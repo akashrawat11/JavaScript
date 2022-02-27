@@ -1,0 +1,38 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  background-color: goldenrod;
+}
+
+ul {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+}
+
+.ham {
+  padding: 1rem;
+}
+
+li,
+i {
+  list-style: none;
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+  transition: 0.5s all ease;
+}
+
+.hide {
+  display: none;
+}
