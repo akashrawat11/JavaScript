@@ -1,0 +1,53 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  opacity: 0.5;
+}
+.nav-container {
+  position: fixed;
+  width: 500px;
+  height: 100vh;
+  background-color: goldenrod;
+  transition: 0.5s all ease;
+}
+
+.close-container {
+  position: absolute;
+  right: 0;
+  padding: 1rem;
+}
+
+ul {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+}
+
+.ham {
+  padding: 1rem;
+  text-align: right;
+}
+
+li,
+i {
+  list-style: none;
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 0, 0);
+}
+
+.hide {
+  transform: translateX(-100%);
+}
