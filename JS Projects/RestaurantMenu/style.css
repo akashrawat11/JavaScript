@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+li {
+  list-style: none;
+  padding: 1rem;
+}
+a {
+  text-decoration: none;
+  color: brown;
+  border: 1px solid brown;
+  padding: 0.5rem;
+  border-radius: 3px;
+}
+h1 {
+  text-align: center;
+  margin-top: 1rem;
+  color: brown;
+}
+
+.recipe {
+  display: flex;
+  padding: 3rem;
+}
+.image-container {
+  width: 300px;
+  height: 300px;
+}
+img {
+  height: 100%;
+  width: 100%;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 1rem;
+}
+
+.np-container {
+  display: flex;
+  justify-content: space-between;
+  object-fit: cover;
+}
